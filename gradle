@@ -1,0 +1,12 @@
+  applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def project = variant.name
+            def SEP = "_"
+            def version = "v" + variant.versionName + "(" + variant.versionCode + ")"
+            def date = new Date()
+            def formattedDate = date.format('dd-MM-yy')
+
+            def newApkName = project + SEP + version + SEP + formattedDate + ".apk"
+            outputFileName = newApkName
+        }
+    }
