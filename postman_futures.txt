@@ -1,0 +1,7 @@
+// Код для прихранения данных из запросов для использования в следующих запросах
+
+var jsonData = JSON.parse(responseBody);
+pm.environment.set("token_key", jsonData.access_token);
+
+
+// переменную использовать в виде {token_key}
