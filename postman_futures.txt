@@ -4,4 +4,4 @@ var jsonData = JSON.parse(responseBody);
 pm.environment.set("token_key", jsonData.access_token);
 
 
-// переменную использовать в виде {token_key}
+// переменную использовать в виде {{token_key}}
