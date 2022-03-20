@@ -1,4 +1,4 @@
-package by.bank.bsb.mobile.utils.recycler
+package by.exmple_project.utils.recycler
 
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
