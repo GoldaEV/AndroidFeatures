@@ -1,4 +1,4 @@
-package by.bank.bsb.mobile.utils.recycler
+package by.exmple_project.utils.recycler
 
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
